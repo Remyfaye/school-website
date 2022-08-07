@@ -35,6 +35,7 @@
 body{
     color: var(--color-white);
     background: var(--color-bg);
+    overflow-x: hidden;
 }
 .red{
     color: var(--color-white);
@@ -99,6 +100,7 @@ nav{
     height: 5rem;
     position: fixed;
     top: 0;
+    font-size: 20px;
     z-index: 11;
 }
 .window-scroll{
@@ -523,6 +525,7 @@ header{
 @media screen and (max-width: 600px) {
     .container{
         width: var(--container-width-sm);
+        font-size: 20px;
     }
     header{
         height: 100vh;

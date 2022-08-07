@@ -26,7 +26,7 @@
     --color-rg1 : #5e0b12;
     --color-rg2 : #940612;
 
-    --container-width-lg : 80%;
+    --container-width-lg : 90%;
     --container-width-md : 90%;
     --container-width-sm : 94%;
 
@@ -37,13 +37,16 @@
 body{
     color: var(--color-white);
     background: var(--color-bg);
+    overflow-x: hidden;
 }
 section{
     padding: 6rem 0;
 }
 .container{
     width: var(--container-width-lg);
+    font-size: 20px;
     margin: 0 auto;
+    
 }
 
 a{
